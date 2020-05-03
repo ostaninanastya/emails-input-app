@@ -1,6 +1,5 @@
 import './index.css';
 import './emails-input';
-import '@webcomponents/custom-elements'
 
 const emailsInput = document.querySelector('emails-input');
 function onEmailsCount() {
