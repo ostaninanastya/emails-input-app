@@ -24,17 +24,17 @@ $ npm run production
     import './emails-input';
   ```
 ## API
-###A method to get all entered emails. Both valid and invalid.
+### A method to get all entered emails. Both valid and invalid.
   ```js
     const emailsInput = document.querySelector('emails-input'); 
     console.log(emailsInput.items) 
   ```
-###A method to replace all entered emails with new ones.
+### A method to replace all entered emails with new ones.
   ```js
     const emailsInput = document.querySelector('emails-input'); 
     emailsInput.items = ["example@mail.com", "example@gmail.com"];
   ```
-###Ability to subscribe for emails list changes.
+### Ability to subscribe for emails list changes.
   ```js
     document.addEventListener('change', function(event) { 
       alert(event.detail.text); 
